@@ -1,0 +1,82 @@
+
+.tab__area{
+    width: 75%;
+    margin:auto ;
+    padding: 30px 0;
+}
+.tab__title{
+    text-align: center;
+    letter-spacing: 2.4px;
+}
+.title__underline{
+    width: 90px;
+    margin:7px auto;
+    background-color: #66e374;;
+    height: 3px;
+}
+.tab__container{
+    margin: 50px 0;
+}
+
+.single__tab{
+    display: flex;
+
+}
+
+.name__area{
+    display: flex;
+    flex-direction: column;
+    width: 26%;
+}
+.btn{
+    background:transparent;
+    border: none;
+    outline: none;
+    padding: 5px 2px;
+    letter-spacing: 2.4px;
+    font-size: 16px;
+    text-align-last: left;
+    cursor:pointer ;
+    margin-bottom: 10px;
+}
+.btn:hover{
+    border-left:5px solid #66e374;
+    color: #66e374;
+}
+.active{
+    border-left:5px solid #66e374;
+    color: #66e374;
+}
+
+.d-flex{
+    display: flex;
+    margin-top:15px;
+}
+.d-flex p{
+    letter-spacing: 2px;
+}
+.d-flex .icon{
+    color: #66e374;
+    margin-right: 20px;
+    margin-top: 4px;
+}
+.info h1{
+    letter-spacing: 3px;
+    font-size: 21px;
+    font-weight: 400;
+}
+.info .name{
+    background: #0000ff26;
+    padding: 5px 20px;
+    font-size: 14px;
+    border: none;
+    outline: none;
+    letter-spacing: 4px;
+    border-radius: 3px;
+    margin: 7px 0;
+}
+    
+.info p small{
+    letter-spacing: 4px;
+    font-weight: 300;
+}
